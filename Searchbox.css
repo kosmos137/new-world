@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:100vh ;
+    background-image: linear-gradient(rgba(0,0,0,0.7)),url(image.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1{
+    top:;e
+}

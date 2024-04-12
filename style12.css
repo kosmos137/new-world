@@ -1,0 +1,8 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+
+body{background: #eceef1; font-family: "Slabo 27px", serif; color: #333a45;}
+
+.wrapper {margin: 5em auto; max-width: 1000px; background-color: #fff; box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.06);}
+
+.header {}

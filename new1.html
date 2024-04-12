@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        div[class*='-3'] { column-count: 3; }
+        div[class*='-4']  column-count: 4; 
+       h2{colums: colums}
+       h2 {
+ background:
+ url('bunny.png') no-repeat 95% 85%,
+#000 url('landscape.jpg') no-repeat 50% 50%; 
+}
+h2 { 
+background: 
+ url('bunny.png') no-repeat 95% 85%, 
+ url('bunny.png') no-repeat 70% 70%, 
+ url('bunny.png') no-repeat 10% 100%, 
+ url('landscape.jpg') no-repeat 50% 50%; 
+ background-size: auto,5%,50%,auto;
+}
+h3{background-clip: border-box;}
+
+.bunny{background: url('bunny_sprite.png') no-repeat 50% 50% #EFEFEF;}
+.white{background-image: -moz-image-rect(url('bunny_sprite.png'),0,5,7,100,0);}
+.gray{background-image: -moz-image-rect(url('bunny_sprite.png'),0,114,100,57);}
+
+div{background: url('images/bunny.png');
+-webkit-background-size:17px 30px
+-webkit-mask-image:url('images/bw.png');
+-webkit-mask-position: 50% 50%;
+-webkit-mask-repeat:no-repeat;
+:-webkit-mask-size:100%;}
+
+    </style>
+    </head>
+    <body>
+        
+
+<div>
+
+</div>
+
+
+        <div class="columns-3"> 
+            <p>Lorem ipsum dolor...</p>
+           </div>
+           <div class="columns-4">
+            <p>Lorem ipsum dolor...</p>
+           </div> 
+    </body>
+</html>

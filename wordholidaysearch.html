@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Holiday Lookup</title> <link rel="icon" href="assets/favicon.ico" type="image/xicon"> <link rel="stylesheet" href="style4.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z!1XaZNBrJURtCoUT5" crossorigin="anonymous"></script>
+    <script defer src="script4.js"></script>
+    </head>
+    <body>
+        <div id="title"> <p> Need something to celebrate</p></div><br>
+        <h1>World Holiday Lookup</h1> <span>Powered By:</span> <span> Calenderif Global Holiday API</span>
+        <div>
+            <form>
+                <label for="country-input">Country (required):</label>
+                <select id="country-input" class="first-choice" onchange="this.className=this.Options[this.selectedIndex].className">
+                <option class="first-choice">Please Choose a Country</option>
+                </select>
+                <label for="year-input">Year (required):</label>
+                <input type="number" id="year-input" min="1500" max="2049" placeholder="Input year from1900-2049" onclick="this.select()">
+<label for="month-input">Month (optional): </label>
+<select id="month-input" class="first-choice" onchange="this.className=this.options[this.selectedIndex].className"> 
+    <option value="1">January</option>
+    <option value="2">Febraury</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">Octobar</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+<label for="day-input">Day (optional):</label>
+<input type="number" id="day-input" min="1" max="31" placeholder="Input day from 1-31 or leave this option" onclick="this.select"
+            </form>
+        </div>
+    </body>
+</html>
